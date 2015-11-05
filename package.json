@@ -1,0 +1,36 @@
+{
+  "name": "privacy2run",
+  "version": "1.0.0",
+  "description": "A simple app to apply privacy settings on your strava activities",
+  "keywords": [
+    "strava",
+    "Node.js",
+    "privacy"
+  ],
+  "author": {
+    "name": "avi",
+    "email": "anatoly.ivanov@gmail.com",
+    "url": "https://privacy2run-ianatoly.rhcloud.com/"
+  },
+  "homepage": "http://privacy2run-ianatoly.rhcloud.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openshift/origin-server"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "express": "~3.4.4",
+    "strava-v3": "~1.8.0",
+    "url": "~0.11.0"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js"
+}
